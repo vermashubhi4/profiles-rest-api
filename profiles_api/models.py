@@ -48,4 +48,4 @@ class UserProfile(AbstractBaseUser, PermissionsMixin):
 
     def __str__(self):
         """Retrieve string representation of our user"""
-        return self.emai
+        return self.email
